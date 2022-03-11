@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SeconadryComponent } from './seconadry/seconadry.component';
+import { ContentTestComponent } from './content-test/content-test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SeconadryComponent,
+    ContentTestComponent
   ],
   imports: [
     BrowserModule,
